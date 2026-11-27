@@ -2,6 +2,7 @@
 
 <img src="matrix.svg" width="800" alt="Matrix KUSH-COD3R"/>
 <img src="anonymous.svg" width="400" alt="Anonymous"/>
+
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="3s" repeatCount="indefinite"/>
