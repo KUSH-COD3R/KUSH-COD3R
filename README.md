@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/KUSH-COD3R/KUSH-COD3R/main/smiley.svg" width="80" alt="rotating smiley"/>
 
-Built with Claude
+GoClaude#@#@#@#@
 
 ```text
  _  ___   _ ____  _   _
@@ -13,14 +13,3 @@ Built with Claude
 ```
 
 ---
-
-
- ██░ ██  ██▓ ▐██▌ 
-▓██░ ██▒▓██▒ ▐██▌ 
-▒██▀▀██░▒██▒ ▐██▌ 
-░▓█ ░██ ░██░ ▓██▒ 
-░▓█▒░██▓░██░ ▒▄▄  
- ▒ ░░▒░▒░▓   ░▀▀▒ 
- ▒ ░▒░ ░ ▒ ░ ░  ░ 
- ░  ░░ ░ ▒ ░    ░ 
- ░  ░  ░ ░   ░
