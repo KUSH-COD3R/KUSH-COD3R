@@ -14,4 +14,3 @@ Built with Claude
 
 ---
 
-*"There is no spoon."*
