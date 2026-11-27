@@ -1,28 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
-  <rect width="900" height="200" fill="#000"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
-    <g id="col">
-      <text font-family="monospace" font-size="16" fill="#00ff41">
-        <tspan x="0" y="0">ﾊ</tspan><tspan x="0" dy="20" fill="#7CFF9E">0</tspan><tspan x="0" dy="20">1</tspan><tspan x="0" dy="20" fill="#7CFF9E">ﾐ</tspan><tspan x="0" dy="20">Z</tspan><tspan x="0" dy="20" fill="#7CFF9E">4</tspan><tspan x="0" dy="20">ｺ</tspan><tspan x="0" dy="20" fill="#7CFF9E">7</tspan><tspan x="0" dy="20">ﾘ</tspan><tspan x="0" dy="20">3</tspan>
-      </text>
-    </g>
+    <linearGradient id="matrixGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d0208;stop-opacity:1" />
+    </linearGradient>
   </defs>
-  <g>
-    <use href="#col" x="30" y="-200"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.2s" repeatCount="indefinite"/></use>
-    <use href="#col" x="90" y="-120"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.6s" repeatCount="indefinite"/></use>
-    <use href="#col" x="150" y="-260"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="4s" repeatCount="indefinite"/></use>
-    <use href="#col" x="210" y="-60"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.9s" repeatCount="indefinite"/></use>
-    <use href="#col" x="270" y="-180"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.5s" repeatCount="indefinite"/></use>
-    <use href="#col" x="330" y="-300"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.4s" repeatCount="indefinite"/></use>
-    <use href="#col" x="390" y="-100"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.8s" repeatCount="indefinite"/></use>
-    <use href="#col" x="450" y="-220"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.7s" repeatCount="indefinite"/></use>
-    <use href="#col" x="510" y="-40"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.3s" repeatCount="indefinite"/></use>
-    <use href="#col" x="570" y="-280"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="4.2s" repeatCount="indefinite"/></use>
-    <use href="#col" x="630" y="-150"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.5s" repeatCount="indefinite"/></use>
-    <use href="#col" x="690" y="-90"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.6s" repeatCount="indefinite"/></use>
-    <use href="#col" x="750" y="-240"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.8s" repeatCount="indefinite"/></use>
-    <use href="#col" x="810" y="-170"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.1s" repeatCount="indefinite"/></use>
-    <use href="#col" x="870" y="-70"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.7s" repeatCount="indefinite"/></use>
+  <rect width="800" height="200" fill="url(#matrixGrad)"/>
+  <text x="400" y="100" font-family="monospace" font-size="60" fill="#00ff41" text-anchor="middle" font-weight="bold">KUSH-COD3R</text>
+  <g font-family="monospace" font-size="14" fill="#00ff41">
+    <text x="50" y="20">10 01 11 00 10 01 10 11 01 10 01 11 00 10 01</text>
+    <text x="50" y="40">01 10 00 11 01 10 01 00 11 01 10 00 11 01 10</text>
+    <text x="50" y="60">11 01 10 01 00 11 10 01 00 11 01 10 01 00 11</text>
+    <text x="50" y="80">00 11 01 10 01 00 11 01 10 00 11 01 10 01 00</text>
+    <text x="50" y="120">10 01 11 00 10 01 10 11 01 10 01 11 00 10 01</text>
+    <text x="50" y="140">01 10 00 11 01 10 01 00 11 01 10 00 11 01 10</text>
+    <text x="50" y="160">11 01 10 01 00 11 10 01 00 11 01 10 01 00 11</text>
+    <text x="50" y="180">00 11 01 10 01 00 11 01 10 00 11 01 10 01 00</text>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
   </g>
-  <text x="450" y="110" text-anchor="middle" font-family="monospace" font-size="28" fill="#00ff41">WAKE UP, NEO...</text>
 </svg>
