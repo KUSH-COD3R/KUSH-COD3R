@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="dragon.svg" alt="Dragon" width="300"/>
+</p>
+
+<p align="center">
   <img src="matrix.svg" alt="Matrix rain" width="100%"/>
 </p>
 
