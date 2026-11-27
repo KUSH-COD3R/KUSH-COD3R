@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <img src="peace.svg" alt="Peace symbol" width="150"/>
+</p>
+
+<p align="center">
   <img src="matrix.svg" alt="Matrix rain" width="100%"/>
 </p>
 
