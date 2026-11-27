@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <rect width="900" height="200" fill="#000"/>
+  <defs>
+    <g id="col">
+      <text font-family="monospace" font-size="16" fill="#00ff41">
+        <tspan x="0" y="0">ﾊ</tspan><tspan x="0" dy="20" fill="#7CFF9E">0</tspan><tspan x="0" dy="20">1</tspan><tspan x="0" dy="20" fill="#7CFF9E">ﾐ</tspan><tspan x="0" dy="20">Z</tspan><tspan x="0" dy="20" fill="#7CFF9E">4</tspan><tspan x="0" dy="20">ｺ</tspan><tspan x="0" dy="20" fill="#7CFF9E">7</tspan><tspan x="0" dy="20">ﾘ</tspan><tspan x="0" dy="20">3</tspan>
+      </text>
+    </g>
+  </defs>
+  <g>
+    <use href="#col" x="30" y="-200"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.2s" repeatCount="indefinite"/></use>
+    <use href="#col" x="90" y="-120"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.6s" repeatCount="indefinite"/></use>
+    <use href="#col" x="150" y="-260"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="4s" repeatCount="indefinite"/></use>
+    <use href="#col" x="210" y="-60"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.9s" repeatCount="indefinite"/></use>
+    <use href="#col" x="270" y="-180"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.5s" repeatCount="indefinite"/></use>
+    <use href="#col" x="330" y="-300"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.4s" repeatCount="indefinite"/></use>
+    <use href="#col" x="390" y="-100"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.8s" repeatCount="indefinite"/></use>
+    <use href="#col" x="450" y="-220"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#col" x="510" y="-40"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.3s" repeatCount="indefinite"/></use>
+    <use href="#col" x="570" y="-280"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="4.2s" repeatCount="indefinite"/></use>
+    <use href="#col" x="630" y="-150"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.5s" repeatCount="indefinite"/></use>
+    <use href="#col" x="690" y="-90"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.6s" repeatCount="indefinite"/></use>
+    <use href="#col" x="750" y="-240"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="2.8s" repeatCount="indefinite"/></use>
+    <use href="#col" x="810" y="-170"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#col" x="870" y="-70"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 320" dur="3.7s" repeatCount="indefinite"/></use>
+  </g>
+  <text x="450" y="110" text-anchor="middle" font-family="monospace" font-size="28" fill="#00ff41">WAKE UP, NEO...</text>
+</svg>
