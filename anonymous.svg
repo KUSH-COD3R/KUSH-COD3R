@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="anonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="100%" style="stop-color:#001100"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#anonGrad)"/>
+  <!-- Anonymous Mask ASCII Style -->
+  <g fill="#00ff41" font-family="monospace" font-size="8" text-anchor="middle">
+    <text x="200" y="40">████████████████████</text>
+    <text x="200" y="52">██                ██</text>
+    <text x="200" y="64">██  ░░░░    ░░░░  ██</text>
+    <text x="200" y="76">██  ░██░    ░██░  ██</text>
+    <text x="200" y="88">██  ░░░░    ░░░░  ██</text>
+    <text x="200" y="100">██                ██</text>
+    <text x="200" y="112">██    ████████    ██</text>
+    <text x="200" y="124">██   ██░░░░░░██   ██</text>
+    <text x="200" y="136">██  ██░░████░░██  ██</text>
+    <text x="200" y="148">██  ██░░░██░░░██  ██</text>
+    <text x="200" y="160">██   ██░░░░░░██   ██</text>
+    <text x="200" y="172">██    ████████    ██</text>
+    <text x="200" y="184">██      ████      ██</text>
+    <text x="200" y="196">██     █░░░░█     ██</text>
+    <text x="200" y="208">██    █░████░█    ██</text>
+    <text x="200" y="220">██   █░░░░░░░░█   ██</text>
+    <text x="200" y="232">██  █░░██████░░█  ██</text>
+    <text x="200" y="244">██ █░░░█    █░░░█ ██</text>
+    <text x="200" y="256">███░░░░██████░░░░███</text>
+    <text x="200" y="268">██░░░░░░░░░░░░░░░░██</text>
+    <text x="200" y="280">████████████████████</text>
+    <text x="200" y="300">WE ARE ANONYMOUS</text>
+    <text x="200" y="315">WE ARE LEGION</text>
+    <text x="200" y="330">WE DO NOT FORGIVE</text>
+    <text x="200" y="345">WE DO NOT FORGET</text>
+    <text x="200" y="360">EXPECT US</text>
+  </g>
+  <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+</svg>
