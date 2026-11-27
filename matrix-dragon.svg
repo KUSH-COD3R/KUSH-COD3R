@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="100%" style="stop-color:#0d0208"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" fill="url(#bgGrad)"/>
+  <!-- Dragon ASCII -->
+  <text x="400" y="150" font-family="monospace" font-size="10" fill="#00ff41" text-anchor="middle">
+    <tspan x="400" dy="0">                              __---__</tspan>
+    <tspan x="400" dy="12">                           _-        _--_-</tspan>
+    <tspan x="400" dy="12">                        _--   _----      _--</tspan>
+    <tspan x="400" dy="12">                     _--   _--           _-</tspan>
+    <tspan x="400" dy="12">                   _-    _-             _-</tspan>
+    <tspan x="400" dy="12">                 _-    _-             _-</tspan>
+    <tspan x="400" dy="12">               _-    _-    ______   _-</tspan>
+    <tspan x="400" dy="12">              /    _-    _/      \_-</tspan>
+    <tspan x="400" dy="12">             /    /    _/          \_</tspan>
+    <tspan x="400" dy="12">            /    /    /   KUSH-COD3R  \_</tspan>
+    <tspan x="400" dy="12">           /    /    /                  \_</tspan>
+    <tspan x="400" dy="12">          /    /    /    ____            \_</tspan>
+    <tspan x="400" dy="12">         /    /    /    /    \_            \_</tspan>
+    <tspan x="400" dy="12">        /    /    /    /       \_           \_</tspan>
+    <tspan x="400" dy="12">       /    /    /    /          \_          \_</tspan>
+    <tspan x="400" dy="12">      /    /    /____/             \_         \_</tspan>
+    <tspan x="400" dy="12">     /____/                          \_        \_</tspan>
+    <tspan x="400" dy="12">    /                                   \_      \_</tspan>
+    <tspan x="400" dy="12">   /                                      \_     \_</tspan>
+  </text>
+  <!-- Falling code effect -->
+  <g font-family="monospace" font-size="12" fill="#00ff41" opacity="0.6">
+    <text x="50" y="20">01011 10101 01110</text>
+    <text x="150" y="60">10101 01010 10101</text>
+    <text x="650" y="40">11010 01011 10101</text>
+    <text x="750" y="80">01101 10101 01010</text>
+    <text x="100" y="280">10101 01010 10101</text>
+    <text x="700" y="260">01011 10101 01110</text>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </g>
+</svg>
