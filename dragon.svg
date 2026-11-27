@@ -1,31 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="755" height="242" viewBox="0 0 755 242">
   <defs>
-    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ff1a1a"/>
       <stop offset="50%" stop-color="#1e5bff"/>
       <stop offset="100%" stop-color="#00ff41"/>
     </linearGradient>
-    <radialGradient id="fire" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#fff7a0"/>
-      <stop offset="50%" stop-color="#ff7a1a"/>
-      <stop offset="100%" stop-color="#ff1a1a" stop-opacity="0"/>
-    </radialGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="600" height="300" fill="#000"/>
-  <!-- fire breath -->
-  <path d="M250 120 Q330 90 420 110 Q470 120 520 100 Q470 140 420 140 Q330 150 250 140 Z" fill="url(#fire)"/>
-  <!-- body -->
-  <path d="M120 200 Q150 130 230 140 Q280 120 320 150 Q360 190 330 230 Q290 260 220 240 Q170 255 120 200 Z" fill="url(#scale)"/>
-  <!-- neck and head -->
-  <path d="M230 140 Q260 80 300 70 L340 60 L390 80 L340 95 Q300 100 280 150 Z" fill="url(#scale)"/>
-  <path d="M340 60 L330 40 L355 58 Z" fill="url(#scale)"/>
-  <!-- eye -->
-  <circle cx="360" cy="75" r="4" fill="#fff7a0"/>
-  <!-- tail -->
-  <path d="M130 195 Q80 170 60 220 Q90 210 120 215 Z" fill="url(#scale)"/>
-  <!-- wings -->
-  <path d="M250 150 Q230 60 150 40 Q190 90 200 140 Z" fill="url(#scale)" opacity="0.85"/>
-  <!-- legs -->
-  <path d="M170 235 L160 275 L180 275 L185 240 Z" fill="url(#scale)"/>
-  <path d="M280 240 L275 275 L295 275 L298 240 Z" fill="url(#scale)"/>
+  <rect width="755" height="242" fill="#000"/>
+  <g font-family="monospace" font-size="18" font-weight="bold" fill="url(#scale)" filter="url(#glow)">
+    <text x="20" y="34" xml:space="preserve">                      __====-_  _-====__</text>
+    <text x="20" y="58" xml:space="preserve">          ___---^^^   ~~        ~~   ^^^---___</text>
+    <text x="20" y="82" xml:space="preserve">       _-^      _/\_   ___  ___   _/\_      ^-_</text>
+    <text x="20" y="106" xml:space="preserve">     _/    __  / o  \_/   \/   \_/  o \  __    \_</text>
+    <text x="20" y="130" xml:space="preserve">    /   __/  \/   ___/   ___   \___   \/  \__   \</text>
+    <text x="20" y="154" xml:space="preserve">   /  _/   ___  __/  __/ ___ \__  \___  ___  \_  \</text>
+    <text x="20" y="178" xml:space="preserve">  /__/   _/   \/  _/   /   \  \_    \/   \__\   \__</text>
+    <text x="20" y="202" xml:space="preserve">         /_____/\_____/     \_____/\_____\        \___/</text>
+  </g>
 </svg>
