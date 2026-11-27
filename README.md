@@ -5,7 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="dragon.svg" alt="Dragon" width="300"/>
+  <img src="falkor.svg" alt="Falkor" width="300"/>
+</p>
+
+<p align="center">
+  <img src="skull.svg" alt="Colorful skull" width="200"/>
 </p>
 
 <p align="center">
