@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#000000"/>
+  <!-- KUSH in RED -->
+  <text x="200" y="50" font-family="monospace" font-size="20" fill="#ff0000" font-weight="bold">
+    <tspan x="200" dy="0">██╗  ██╗██╗   ██╗███████╗██╗  ██╗</tspan>
+    <tspan x="200" dy="24">██║ ██╔╝██║   ██║██╔════╝██║  ██║</tspan>
+    <tspan x="200" dy="24">█████╔╝ ██║   ██║███████╗███████║</tspan>
+    <tspan x="200" dy="24">██╔═██╗ ██║   ██║╚════██║██╔══██║</tspan>
+    <tspan x="200" dy="24">██║  ██╗╚██████╔╝███████║██║  ██║</tspan>
+  </text>
+  <!-- - in BLUE -->
+  <text x="520" y="110" font-family="monospace" font-size="20" fill="#0066ff" font-weight="bold">
+    <tspan x="520" dy="0">██████╗</tspan>
+    <tspan x="520" dy="24">██╔══██╗</tspan>
+    <tspan x="520" dy="24">██║  ██║</tspan>
+    <tspan x="520" dy="24">██║  ██║</tspan>
+    <tspan x="520" dy="24">██████╔╝</tspan>
+  </text>
+  <!-- COD3R in GREEN -->
+  <text x="200" y="110" font-family="monospace" font-size="20" fill="#00ff00" font-weight="bold">
+    <tspan x="600" dy="0"> ██████╗ ██████╗ ██████╗ ██████╗ ███████╗</tspan>
+    <tspan x="600" dy="24">██╔════╝██╔═══██╗██╔══██╗╚════██╗██╔════╝</tspan>
+    <tspan x="600" dy="24">██║     ██║   ██║██║  ██║ █████╔╝███████╗</tspan>
+    <tspan x="600" dy="24">██║     ██║   ██║██║  ██║██╔═══╝ ╚════██║</tspan>
+    <tspan x="600" dy="24">╚██████╗╚██████╔╝██████╔╝███████╗███████║</tspan>
+  </text>
+</svg>
